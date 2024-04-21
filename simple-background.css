@@ -1,10 +1,10 @@
 /* Hide most visible items */
 [class*=guilds] {
-    background: none;
+    background: none !important;
 }
 
 [class*=chat] {
-    background: none;
+    background: none !important;
 }
 
 [aria-label="Channel header"] {
@@ -16,6 +16,10 @@
 }
 
 [class*=privateChannels] {
+    background: none !important;
+}
+
+[class*=container] {
     background: none !important;
 }
 
