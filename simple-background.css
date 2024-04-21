@@ -32,6 +32,5 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    /* ajust opacity for "brightness" */
-    opacity: 0.35;
+    opacity: var(--bg-opacity);
 }
