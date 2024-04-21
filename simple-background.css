@@ -11,18 +11,8 @@
 
 .bg__12180 {
     background-image: var(--bg-image-url);
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     opacity: var(--bg-opacity);
-
-    --bg-position: center center;
-    background-position: var(--bg-position);
-}
-
-:root {
-    --bg-position-top: top center;
-    --bg-position-bottom: bottom center;
-    --bg-position-left: center left;
-    --bg-position-right: center right;
-    --bg-position-center: center center; /* Default */
 }
