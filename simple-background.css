@@ -1,28 +1,10 @@
 /* Hide most visible items */
-[class*=guilds] {
-    background: none !important;
-}
-
-[class*=chat] {
-    background: none !important;
-}
-
-[aria-label="Channel header"] {
-    background: none !important;
-}
-
-[class*=sidebar] {
-    background: none !important;
-}
-
-[class*=privateChannels] {
-    background: none !important;
-}
-
-[class*=container] {
-    background: none !important;
-}
-
+[class*=guilds],
+[class*=chat],
+[aria-label="Channel header"],
+[class*=sidebar],
+[class*=privateChannels],
+[class*=container],
 [class*=scroller] {
     background: none !important;
 }
@@ -33,4 +15,15 @@
     background-repeat: no-repeat;
     background-size: cover;
     opacity: var(--bg-opacity);
+
+    --bg-position: center center;
+    background-position: var(--bg-position);
+}
+
+:root {
+    --bg-position-top: top center;
+    --bg-position-bottom: bottom center;
+    --bg-position-left: center left;
+    --bg-position-right: center right;
+    --bg-position-center: center center; /* Default */
 }
