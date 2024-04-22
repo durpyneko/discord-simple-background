@@ -6,7 +6,7 @@
 [class*=privateChannels],
 [class*=container],
 [class*=scroller],
-[class*="nowPlayingColumn"] {
+[class*=nowPlayingColumn] {
     background: none !important;
 }
 
