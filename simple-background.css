@@ -5,7 +5,8 @@
 [class*=sidebar],
 [class*=privateChannels],
 [class*=container],
-[class*=scroller] {
+[class*=scroller],
+[class*="nowPlayingColumn"] {
     background: none !important;
 }
 
